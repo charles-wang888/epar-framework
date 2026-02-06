@@ -1,0 +1,10 @@
+{
+  "benchmark": "SCROLLS",
+  "source": "tau/scrolls on HuggingFace",
+  "tasks": ["gov_report", "summscreen_fd", "qmsum", "narrative_qa", "qasper", "quality", "contract_nli"],
+  "max_length": 16384,
+  "protocol": "../configs/paper_protocol.json",
+  "output_dir": "../results/scrolls",
+  "metrics": ["rouge", "bertscore", "task_specific"],
+  "notes": "Standardized long-form benchmark. Same 110M + per-baseline protocol. Can start with 1-2 tasks (e.g. GovReport, SummScreen) if compute limited."
+}

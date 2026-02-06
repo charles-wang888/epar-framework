@@ -1,0 +1,11 @@
+{
+  "task": "CodeXGlue",
+  "subtask": "code-summarization",
+  "source": "microsoft/codexglue code summarization (e.g. code_xglue_cc_code_to_code_trans)",
+  "language": "python",
+  "max_length": 512,
+  "protocol": "../configs/paper_protocol.json",
+  "output_dir": "../results/codexglue",
+  "metrics": ["bleu", "rouge_l", "meteor"],
+  "notes": "Code task for diversity. Same 110M + per-baseline. Alternative: code completion subset."
+}

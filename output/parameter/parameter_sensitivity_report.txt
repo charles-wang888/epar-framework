@@ -1,0 +1,26 @@
+=== Parameter Sensitivity Analysis Report ===
+
+1. α Parameter Sensitivity Analysis:
+   α controls the strength of position influence, larger values mean stronger position influence
+   α=0.1: Position Strength=0.0741, Attention Concentration=0.0000
+   α=0.2: Position Strength=0.1481, Attention Concentration=0.0000
+   α=0.5: Position Strength=0.3703, Attention Concentration=0.0000
+   α=1.0: Position Strength=0.7407, Attention Concentration=0.0001
+   α=2.0: Position Strength=1.4813, Attention Concentration=0.0003
+   α=5.0: Position Strength=3.7034, Attention Concentration=0.0039
+   α=10.0: Position Strength=7.4067, Attention Concentration=0.0085
+
+2. β Parameter Sensitivity Analysis:
+   β controls the speed of position decay, larger values mean faster decay
+   β=0.5: Decay Speed=0.9308, Attention Locality=0.0465
+   β=1.0: Decay Speed=0.8719, Attention Locality=0.0477
+   β=2.0: Decay Speed=0.7783, Attention Locality=0.0514
+   β=3.0: Decay Speed=0.7090, Attention Locality=0.0556
+   β=5.0: Decay Speed=0.6170, Attention Locality=0.0526
+   β=8.0: Decay Speed=0.5423, Attention Locality=0.0506
+   β=12.0: Decay Speed=0.4936, Attention Locality=0.0503
+
+3. Parameter Combination Suggestions:
+   - High α + Low β: Strong position influence, slow decay, suitable for long sequences
+   - Low α + High β: Weak position influence, fast decay, suitable for short sequences
+   - Medium α + Medium β: Balanced position influence, suitable for general sequences

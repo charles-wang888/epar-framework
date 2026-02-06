@@ -1,0 +1,47 @@
+# Bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+eggs/
+*.egg-info/
+.egg-info/
+.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Optional: ignore generated output (uncomment if you don't commit outputs)
+# output/
+
+# Legacy output dirs (after migration to output/)
+position_output/
+optimal_output/
+parameter_output/
+concrete_output/
+consistency_output/
+adaptive_output/
+triple_attention_plots/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large / local data
+*.zip
+downloads/

@@ -1,0 +1,10 @@
+{
+  "task": "WMT Zh-En",
+  "source": "HuggingFace datasets: wmt14 (zh-en) or wmt19",
+  "split": "train/validation/test",
+  "max_length": 512,
+  "protocol": "../configs/paper_protocol.json",
+  "output_dir": "../results/wmt_zh_en",
+  "metrics": ["bleu", "sacrebleu"],
+  "notes": "Non-English task to extend dataset diversity. Same architecture and per-baseline comparison (RoPE, ALiBi, Ours)."
+}

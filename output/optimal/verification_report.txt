@@ -1,0 +1,47 @@
+=== Optimal Position Formula Verification Report ===
+
+Core Formula: pos* = argmax_i Σ_j A_ij * I_j
+Where:
+  - pos*: Optimal position
+  - A_ij: Attention weight from position i to position j
+  - I_j: Information importance at position j
+
+Information Type: random
+  - Combined Consistency: 0.8121 ± 0.0723
+  - Proximity Score: 0.7041 ± 0.1452
+  - Score Similarity: 0.9201 ± 0.0261
+  - Ranking Correlation: 0.0323 ± 0.0882
+  - Position Score Mean: 0.4974
+
+Information Type: structured
+  - Combined Consistency: 0.8785 ± 0.0389
+  - Proximity Score: 0.8645 ± 0.0757
+  - Score Similarity: 0.8924 ± 0.0279
+  - Ranking Correlation: 0.4631 ± 0.0588
+  - Position Score Mean: 0.4988
+
+Information Type: sparse
+  - Combined Consistency: 0.6578 ± 0.0997
+  - Proximity Score: 0.7141 ± 0.1713
+  - Score Similarity: 0.6016 ± 0.1028
+  - Ranking Correlation: 0.0183 ± 0.0895
+  - Position Score Mean: 0.0589
+
+Information Type: dense
+  - Combined Consistency: 0.7957 ± 0.0872
+  - Proximity Score: 0.6783 ± 0.1649
+  - Score Similarity: 0.9130 ± 0.0276
+  - Ranking Correlation: 0.0469 ± 0.0811
+  - Position Score Mean: 0.4983
+
+Information Type: clustered
+  - Combined Consistency: 0.8318 ± 0.0774
+  - Proximity Score: 0.7478 ± 0.1553
+  - Score Similarity: 0.9158 ± 0.0370
+  - Ranking Correlation: 0.1348 ± 0.0964
+  - Position Score Mean: 0.5198
+
+Overall Assessment:
+  - Average Consistency: 0.7952
+  - Average Ranking Correlation: 0.1391
+  - Verification Result: Needs Improvement ✗

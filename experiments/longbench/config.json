@@ -1,0 +1,10 @@
+{
+  "benchmark": "LongBench",
+  "source": "THUDM/LongBench or HuggingFace equivalent",
+  "subsets": ["narrativeqa", "qasper", "multifieldqa_en"],
+  "max_length": 4096,
+  "protocol": "../configs/paper_protocol.json",
+  "output_dir": "../results/longbench",
+  "metrics": ["accuracy", "f1"],
+  "notes": "Use same 110M architecture; compare RoPE, ALiBi, Ours (Basic), Ours (Enhanced). Report full per-baseline table."
+}

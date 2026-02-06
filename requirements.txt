@@ -1,0 +1,15 @@
+# Core (existing scripts)
+torch>=1.8.0
+numpy
+matplotlib
+seaborn
+
+# Supplementary experiments: LongBench, SCROLLS, WMT, CodeXGlue
+datasets>=2.14.0
+transformers>=4.30.0
+sacrebleu>=2.3.0
+rouge-score>=0.1.2
+evaluate>=0.4.0
+
+# Optional: accelerate for multi-GPU
+# accelerate>=0.20.0
